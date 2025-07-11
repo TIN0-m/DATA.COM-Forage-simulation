@@ -159,10 +159,12 @@ Failure to adhere to specific security standards required by industries they ser
 - Contractual obligations:     
 Breaching service level agreements (SLAs) or security clauses in contracts with clients due to a security incident.
 
-
-
+Once i had this information all sorted i then filled up the first section of the Risk Assessment as follows:
+When choosing the Liklihood and Consequence i was leaning more towards the strict end of things, Setting the baseline high allowed me to feel confident in the risk that could occur
 <img width="1196" height="358" alt="Screenshot 2025-07-11 101729" src="https://github.com/user-attachments/assets/8be09445-3157-40c2-a8a3-8f789c5c31d0" />
 <img width="1196" height="262" alt="Screenshot 2025-07-11 101809" src="https://github.com/user-attachments/assets/78fcacf7-bee2-4d7d-84f0-f7c2f5188136" />
+
+
 <img width="1326" height="356" alt="Screenshot 2025-07-11 101912" src="https://github.com/user-attachments/assets/9ad8aabd-38b1-462b-8fba-ee22df39ced6" />
 <img width="1327" height="258" alt="Screenshot 2025-07-11 101940" src="https://github.com/user-attachments/assets/f4e35feb-6d36-4402-85dd-b7506a6b5a06" />
 <img width="1797" height="610" alt="Screenshot 2025-07-11 100916" src="https://github.com/user-attachments/assets/869727e6-d98d-4e66-a6e7-d069676dd09a" />
