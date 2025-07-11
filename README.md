@@ -160,11 +160,74 @@ Failure to adhere to specific security standards required by industries they ser
 Breaching service level agreements (SLAs) or security clauses in contracts with clients due to a security incident.
 
 Once i had this information all sorted i then filled up the first section of the Risk Assessment as follows:
+
 When choosing the Liklihood and Consequence i was leaning more towards the strict end of things, Setting the baseline high allowed me to feel confident in the risk that could occur
 <img width="1196" height="358" alt="Screenshot 2025-07-11 101729" src="https://github.com/user-attachments/assets/8be09445-3157-40c2-a8a3-8f789c5c31d0" />
 <img width="1196" height="262" alt="Screenshot 2025-07-11 101809" src="https://github.com/user-attachments/assets/78fcacf7-bee2-4d7d-84f0-f7c2f5188136" />
 
+Once that was all done i moved on to the second section this was about implemting control measures (I also had to decided on if these controls were Excellent,Good,Moderate or Weak) and any additional layers of security( Just like the primary control measures i had to decide if they were Excellent.......I had to decide how to treat the risk if it had additonal controls with these categories Aceept, Treat, Avoid and Trasnfer ). So starting from the top i came up with the following controls. 
+
+# Human Error
+- Awareness Training Programs
+- Password Policy
+- Patch Update Cycle
+- Mobile Device Managemt
+
+Additional Control measures:   
+Creating Alerts and staying up to date with the latest threats and making sure Employees are aware of these with regualar training events
+
+# Insider Threat 
+- Background Checks 
+- Implementing Least priviledge
+- Application allow list
+
+Additional Control measure:    
+Having an external source do a bag ground check of employees to ensure the one conducted internally is 100% or making sure nothing was missed on
+
+# System Vulnerabilities
+- A Backup System
+- Table top exercises
+- SIEM and EDR
+- Compensating Controlls
+
+Additional Control measures:     
+Intergrating a cloud service provider to add an additonal layer of security
+
+# Targeted Attacks 
+- Load Balacers
+- Anti-Malware Software
+- Firewalls
+- Logging and Monitoring
+- Incident Response Plan
+
+Additonal Control measures:    
+Regular training to ensure security team is up to date with the latest trends
+
+# Complaince 
+- Complying with laws regulations
+- Creating a baseline
+- Meeting the Agreements of SLA
+
+Additional Control measures:    
+Getting a Legal team to deal with Everything, public Relations Consultations and directly Communicating with the Public
+
+Once i had this down i then proceeded to fill up the remainder of the Risk Assessment as follows: 
 
 <img width="1326" height="356" alt="Screenshot 2025-07-11 101912" src="https://github.com/user-attachments/assets/9ad8aabd-38b1-462b-8fba-ee22df39ced6" />
 <img width="1327" height="258" alt="Screenshot 2025-07-11 101940" src="https://github.com/user-attachments/assets/f4e35feb-6d36-4402-85dd-b7506a6b5a06" />
+
+Below i have provided the Excel sheet and an image of the entire Risk Assessment        
+[Risk Assessment.xlsx](https://github.com/user-attachments/files/21180255/Risk.Assessment.xlsx)
+
 <img width="1797" height="610" alt="Screenshot 2025-07-11 100916" src="https://github.com/user-attachments/assets/869727e6-d98d-4e66-a6e7-d069676dd09a" />
+
+# Conclusion 
+This brings the job simulation to an end, upon this i was provided with a certification of completion and can confidently say that i am compitent in the following:
+
+- I can investigate a cyberattack and produced a comprehensive report documenting findings and outlining key recommendations to improve a client's cybersecurity posture
+- I can conduct a comprehensive risk assessment
+
+</a>
+  <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/gCW7Xki5Y3vNpBmnn/yTszJTvkHFBH6zAn3_gCW7Xki5Y3vNpBmnn_mvw8oKQbrDajKM8Sh_1751918583932_completion_certificate.pdf" target="_blank">
+  <img src="https://img.shields.io/badge/-DATA.COM-4285F4?&style=for-the-badge" alt="DATA.COM Project Certificate" />
+</a>
