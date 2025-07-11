@@ -60,3 +60,109 @@ Enhancing Detection & Response: Centralized logging with SIEM, integrating up-to
 Data Protection: Encrypting sensitive data and maintaining regular, air-gapped, and immutable backups to ensure recovery from destructive attacks.
 
 Essentially, it's about a layered defense, constant vigilance, and adapting your security measures as the threat evolves.
+
+# Task Two
+
+Scope: you will be documenting the client's risk position using the padlock analogy as an example. The client wants you to help them define the context, assess their risk matrix and identify potential risk scenarios
+
+#Objective 
+
+Conduct a comprehensive risk assessment
+
+# Steps 
+It is very important to note that i was provided with an empty template that i had to fill up with my own information.
+
+The first thing i had to do was to fill up the Risk matrix, i decided the best way to scale this would be through a percentage scale ranging from 0 - 99 % spread upon 5 sections of Likelihood and Consequence to determine the risk level. The end result of that ended up looking something like this :
+<img width="1294" height="423" alt="Screenshot 2025-07-11 100211" src="https://github.com/user-attachments/assets/0572c6f5-205e-4cfa-a7cd-1baf8f31287f" />
+
+Once that was all sorted i went on to fill up the Risk Assessment, A cybersecurity company faces a unique set of risks due to the nature of its business – it's both a target for sophisticated attacks and responsible for protecting its clients. A comprehensive risk assessment would cover both internal and external threats, with a strong focus on data integrity, client trust, and intellectual property so i decided that the following would be the five assets i would cover:
+- Human Error
+- Insider Threat
+- System Vulnerabilities
+- Targeted Attacks
+- Compliance Risk
+
+I decided to go into further details covering each one of these 
+
+# Human Error
+- Accidental data exposure:    
+ Employees inadvertently sharing sensitive client data, internal tools, or vulnerabilities through unsecured channels
+
+- Social Engineering susceptibility:    
+Employees falling victim to sophisticated phishing, smishing, or vishing attacks, leading to credential compromise or malware installation. This is particularly critical as they are often targeted.
+
+- Weak password practices:   
+Employees using easily guessable or reused passwords for internal systems or client accounts.
+
+- Poor patch management:    
+Delaying or failing to apply security patches to internal software, operating systems, and network devices, leaving known vulnerabilities exploitable.
+
+- Bring Your Own Device (BYOD) risks:     
+Employees using personal devices for work that may lack adequate security controls, introducing malware or data leakage risks.
+
+# Insider threat
+- Data theft:    
+Former employees, or contractors intentionally stealing sensitive client data 
+
+- Abuse of privileged access:      
+Employees with elevated system privileges misusing their access for personal gain or to cause harm.
+
+- Espionage:        
+An insider working with external threat actors to facilitate attacks or data exfiltration.
+
+- Shadow IT:
+Employees using unauthorized software, cloud services, or devices without security oversight, creating unmonitored entry points.
+
+# System vulnerabilities 
+
+- Inadequate access controls:
+Over-provisioning user permissions, giving employees access to systems or data they don't need for their role .
+
+- Insufficient logging and monitoring:
+ Lack of comprehensive logging or ineffective monitoring of internal systems, making it difficult to detect and respond to breaches quickly.
+
+- Poor incident response planning:     
+An underdeveloped or untested incident response plan for internal security incidents, leading to slower recovery and increased damage.
+
+- Configuration errors:      
+Misconfigurations in internal servers, firewalls, or applications creating security gaps.
+
+- Legacy systems:      
+Continued use of outdated or unsupported hardware and software for internal operations, which may have unpatched vulnerabilities.
+
+- Lack of data backup and recovery:             
+Insufficient or untested backup and recovery procedures for critical internal data, risking data loss in case of an attack.
+
+# Targeted Attacks
+- Advanced Persistent Threats (APTs):   
+Highly sophisticated, long-term attacks by state-sponsored groups or well-resourced criminal organizations aiming to steal intellectual property, client data, or disrupt services.
+
+- Ransomware:      
+Attackers encrypting the company's internal systems or client data and demanding a ransom. This is a severe threat for a cybersecurity company as it undermines their core value proposition.
+
+- Supply Chain Attacks:      
+Attackers compromising a third-party vendor  that the cybersecurity company relies on, to gain access to their systems or client data.
+
+- Distributed Denial of Service (DDoS) Attacks:     
+Flooding the company's public-facing services to disrupt operations and make them unavailable to clients.
+
+- Brand Impersonation/Reputational Damage:       
+Threat actors creating fake websites, social media accounts, or phishing campaigns impersonating the cybersecurity company to trick clients or damage its reputation.
+
+# Compliance 
+- Data privacy regulations (GDPR, POPIA, CCPA, etc.):   
+Non-compliance with data protection laws if client data or personal information is mishandled or breached, leading to significant fines and reputational damage.
+
+- Industry-specific regulations:      
+Failure to adhere to specific security standards required by industries they serve (e.g., financial services, healthcare).
+
+- Contractual obligations:     
+Breaching service level agreements (SLAs) or security clauses in contracts with clients due to a security incident.
+
+
+
+<img width="1196" height="358" alt="Screenshot 2025-07-11 101729" src="https://github.com/user-attachments/assets/8be09445-3157-40c2-a8a3-8f789c5c31d0" />
+<img width="1196" height="262" alt="Screenshot 2025-07-11 101809" src="https://github.com/user-attachments/assets/78fcacf7-bee2-4d7d-84f0-f7c2f5188136" />
+<img width="1326" height="356" alt="Screenshot 2025-07-11 101912" src="https://github.com/user-attachments/assets/9ad8aabd-38b1-462b-8fba-ee22df39ced6" />
+<img width="1327" height="258" alt="Screenshot 2025-07-11 101940" src="https://github.com/user-attachments/assets/f4e35feb-6d36-4402-85dd-b7506a6b5a06" />
+<img width="1797" height="610" alt="Screenshot 2025-07-11 100916" src="https://github.com/user-attachments/assets/869727e6-d98d-4e66-a6e7-d069676dd09a" />
