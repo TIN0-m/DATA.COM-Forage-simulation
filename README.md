@@ -1,16 +1,17 @@
 # DATA.COM-Forage-simulation
-In this simulation i was provided with two tasks. The first task was to produce a comprehensive investigation report of a cyberattack on a client and the second one was to conduct a comprehensive risk assessment
+In this simulation i was provided with two tasks. The **first task** was to produce a comprehensive investigation report of a cyberattack on a client and the **second task** was to conduct a comprehensive risk assessment
 Before i get in to how i did this, id like to express that these resouces that you will get a glimpse of are provided by forage.
 
-# TASK ONE:
+## TASK ONE:
 
-Scope: One of our leading tech corporation clients has fallen prey to a sophisticated cyberattack by a notorious Advanced Persistent Threat (APT) group known as APT34. The attack, believed to be sponsored by a foreign government, has left the organisation's network compromised, and valuable customer data and intellectual property has been stolen.
+**Scope:**         
+One of our leading tech corporation clients has fallen prey to a sophisticated cyberattack by a notorious Advanced Persistent Threat (APT) group known as APT34. The attack, believed to be sponsored by a foreign government, has left the organisation's network compromised, and valuable customer data and intellectual property has been stolen.
 
-# Objective 
+## Objective 
 
 My goal was to communicate my findings and recommendations effectively to the client's leadership team, providing actionable insights that can improve the corporation's security posture
 
-# Thinking Process
+## Thinking Process
 
 to create a an investigation report on an APT i decided to draft a list of questions to be give me a proper understanding of the threat and their motives, here is a list of some of the questions :
 
@@ -33,43 +34,44 @@ With the information gathered from these resouces i managed to create the follow
 
 APT34 is a suspected Iranian threat group that has targeted Middle Eastern and international victims since at least 2014. The group has targeted a variety of sectors, including financial, government, energy, chemical, and telecommunications. It appears the group carries out supply chain attacks, leveraging the trust relationship between organizations to attack their primary targets. The group works on behalf of the Iranian government based on infrastructure details that contain references to Iran, use of Iranian infrastructure, and targeting that aligns with nation-state interests.
 
-Common Tactics and Techniques (TTPs):
+## Common Tactics and Techniques (TTPs):
 
-Spear-phishing: This is their most common initial access vector. They send highly customized emails (sometimes from compromised accounts) or messages, including via platforms like LinkedIn, often disguised as job offers or legitimate business communications.
+**Spear-phishing:** This is their most common initial access vector. They send highly customized emails (sometimes from compromised accounts) or messages, including via platforms like LinkedIn, often disguised as job offers or legitimate business communications.
 
-Malware: They utilize a diverse portfolio of custom-built malware, including backdoors (e.g., Helminth, SaitamaAgent, AgentDrable, EarthquakeRAT, Tonedeaf, SideTwist, StealHook), downloaders (e.g., BondUpdater), credential stealers (e.g., ValueVault, Pickpocket, LaZagne), and web shells (e.g., TwoFace, IntrudingDivisor, HighShell, HyperShell).
+**Malware:** They utilize a diverse portfolio of custom-built malware, including backdoors (e.g., Helminth, SaitamaAgent, AgentDrable, EarthquakeRAT, Tonedeaf, SideTwist, StealHook), downloaders (e.g., BondUpdater), credential stealers (e.g., ValueVault, Pickpocket, LaZagne), and web shells (e.g., TwoFace, IntrudingDivisor, HighShell, HyperShell).
 
-Exploitation: They exploit known vulnerabilities (including zero-days), especially in public-facing applications like web servers and Microsoft Exchange.
+**Exploitation:** They exploit known vulnerabilities (including zero-days), especially in public-facing applications like web servers and Microsoft Exchange.
 
-Privilege Escalation & Lateral Movement: They use tools like Mimikatz for credential dumping, leverage valid accounts, RDP, VPN, and PowerShell scripts for moving stealthily through networks.
+**Privilege Escalation & Lateral Movement:** They use tools like Mimikatz for credential dumping, leverage valid accounts, RDP, VPN, and PowerShell scripts for moving stealthily through networks.
 
-Data Exfiltration: Data is exfiltrated using various methods, including HTTP, DNS tunneling, FTP, and even via compromised email accounts.
+**Data Exfiltration:** Data is exfiltrated using various methods, including HTTP, DNS tunneling, FTP, and even via compromised email accounts.
 
-Defense Evasion: They employ techniques like obfuscation, using signed malware, disabling system firewalls, and using anti-sandbox operations to evade detection.
+**Defense Evasion:** They employ techniques like obfuscation, using signed malware, disabling system firewalls, and using anti-sandbox operations to evade detection.
 
 To defend against APT34 and similar threats, a comprehensive cybersecurity strategy is essential. This includes:
 
-Preventing Initial Access: Strong email security (anti-phishing, DMARC/SPF/DKIM), continuous security awareness training for employees, and robust web/browser security (WAFs, secure web gateways).
+**Preventing Initial Access:** Strong email security (anti-phishing, DMARC/SPF/DKIM), continuous security awareness training for employees, and robust web/browser security (WAFs, secure web gateways).
 
-Hardening Endpoints & Network: Deploying EDR/XDR, next-gen antivirus, rigorous vulnerability management and patching (especially for public-facing systems), network segmentation, and implementing Zero Trust principles.
+**Hardening Endpoints & Network:** Deploying EDR/XDR, next-gen antivirus, rigorous vulnerability management and patching (especially for public-facing systems), network segmentation, and implementing Zero Trust principles.
 
-Strong Access Controls: Enforcing Multi-Factor Authentication (MFA) everywhere, applying the Principle of Least Privilege (PoLP), and using Privileged Access Management (PAM) solutions.
+**Strong Access Controls:** Enforcing Multi-Factor Authentication (MFA) everywhere, applying the Principle of Least Privilege (PoLP), and using Privileged Access Management (PAM) solutions.
 
-Enhancing Detection & Response: Centralized logging with SIEM, integrating up-to-date threat intelligence specific to APT34, proactive threat hunting, and having a well-tested incident response plan.
+**Enhancing Detection & Response:** Centralized logging with SIEM, integrating up-to-date threat intelligence specific to APT34, proactive threat hunting, and having a well-tested incident response plan.
 
-Data Protection: Encrypting sensitive data and maintaining regular, air-gapped, and immutable backups to ensure recovery from destructive attacks.
+**Data Protection:** Encrypting sensitive data and maintaining regular, air-gapped, and immutable backups to ensure recovery from destructive attacks.
 
 Essentially, it's about a layered defense, constant vigilance, and adapting your security measures as the threat evolves.
 
-# Task Two
+## Task Two
 
-Scope: you will be documenting the client's risk position using the padlock analogy as an example. The client wants you to help them define the context, assess their risk matrix and identify potential risk scenarios
+**Scope:**          
+you will be documenting the client's risk position using the padlock analogy as an example. The client wants you to help them define the context, assess their risk matrix and identify potential risk scenarios
 
 #Objective 
 
 Conduct a comprehensive risk assessment
 
-# Steps 
+## Steps 
 It is very important to note that i was provided with an empty template that i had to fill up with my own information.
 
 The first thing i had to do was to fill up the Risk matrix, i decided the best way to scale this would be through a percentage scale ranging from 0 - 99 % spread upon 5 sections of Likelihood and Consequence to determine the risk level. The end result of that ended up looking something like this :
@@ -84,7 +86,7 @@ Once that was all sorted i went on to fill up the Risk Assessment, A cybersecuri
 
 I decided to go into further details covering each one of these 
 
-# Human Error
+## Human Error
 - Accidental data exposure:    
  Employees inadvertently sharing sensitive client data, internal tools, or vulnerabilities through unsecured channels
 
@@ -100,7 +102,7 @@ Delaying or failing to apply security patches to internal software, operating sy
 - Bring Your Own Device (BYOD) risks:     
 Employees using personal devices for work that may lack adequate security controls, introducing malware or data leakage risks.
 
-# Insider threat
+## Insider threat
 - Data theft:    
 Former employees, or contractors intentionally stealing sensitive client data 
 
@@ -113,7 +115,7 @@ An insider working with external threat actors to facilitate attacks or data exf
 - Shadow IT:
 Employees using unauthorized software, cloud services, or devices without security oversight, creating unmonitored entry points.
 
-# System vulnerabilities 
+## System vulnerabilities 
 
 - Inadequate access controls:
 Over-provisioning user permissions, giving employees access to systems or data they don't need for their role .
@@ -133,7 +135,7 @@ Continued use of outdated or unsupported hardware and software for internal oper
 - Lack of data backup and recovery:             
 Insufficient or untested backup and recovery procedures for critical internal data, risking data loss in case of an attack.
 
-# Targeted Attacks
+## Targeted Attacks
 - Advanced Persistent Threats (APTs):   
 Highly sophisticated, long-term attacks by state-sponsored groups or well-resourced criminal organizations aiming to steal intellectual property, client data, or disrupt services.
 
@@ -149,7 +151,7 @@ Flooding the company's public-facing services to disrupt operations and make the
 - Brand Impersonation/Reputational Damage:       
 Threat actors creating fake websites, social media accounts, or phishing campaigns impersonating the cybersecurity company to trick clients or damage its reputation.
 
-# Compliance 
+## Compliance 
 - Data privacy regulations (GDPR, POPIA, CCPA, etc.):   
 Non-compliance with data protection laws if client data or personal information is mishandled or breached, leading to significant fines and reputational damage.
 
@@ -167,13 +169,13 @@ When choosing the Liklihood and Consequence i was leaning more towards the stric
 
 Once that was all done i moved on to the second section this was about implemting control measures (I also had to decided on if these controls were Excellent,Good,Moderate or Weak) and any additional layers of security( Just like the primary control measures i had to decide if they were Excellent.......I had to decide how to treat the risk if it had additonal controls with these categories Aceept, Treat, Avoid and Trasnfer ). So starting from the top i came up with the following controls. 
 
-# Human Error
+## Human Error
 - Awareness Training Programs
 - Password Policy
 - Patch Update Cycle
 - Mobile Device Managemt
 
-Additional Control measures:   
+**Additional Control measures:**                 
 Creating Alerts and staying up to date with the latest threats and making sure Employees are aware of these with regualar training events
 
 # Insider Threat 
@@ -181,7 +183,7 @@ Creating Alerts and staying up to date with the latest threats and making sure E
 - Implementing Least priviledge
 - Application allow list
 
-Additional Control measure:    
+**Additional Control measure:**            
 Having an external source do a bag ground check of employees to ensure the one conducted internally is 100% or making sure nothing was missed on
 
 # System Vulnerabilities
@@ -190,7 +192,7 @@ Having an external source do a bag ground check of employees to ensure the one c
 - SIEM and EDR
 - Compensating Controlls
 
-Additional Control measures:     
+**Additional Control measures:**              
 Intergrating a cloud service provider to add an additonal layer of security
 
 # Targeted Attacks 
@@ -200,7 +202,7 @@ Intergrating a cloud service provider to add an additonal layer of security
 - Logging and Monitoring
 - Incident Response Plan
 
-Additonal Control measures:    
+**Additonal Control measures:**            
 Regular training to ensure security team is up to date with the latest trends
 
 # Complaince 
@@ -208,7 +210,7 @@ Regular training to ensure security team is up to date with the latest trends
 - Creating a baseline
 - Meeting the Agreements of SLA
 
-Additional Control measures:    
+**Additional Control measures:**            
 Getting a Legal team to deal with Everything, public Relations Consultations and directly Communicating with the Public
 
 Once i had this down i then proceeded to fill up the remainder of the Risk Assessment as follows: 
