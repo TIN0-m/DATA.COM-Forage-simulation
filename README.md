@@ -67,7 +67,7 @@ Essentially, it's about a layered defense, constant vigilance, and adapting your
 **Scope:**          
 you will be documenting the client's risk position using the padlock analogy as an example. The client wants you to help them define the context, assess their risk matrix and identify potential risk scenarios
 
-#Objective 
+## Objective 
 
 Conduct a comprehensive risk assessment
 
@@ -87,19 +87,19 @@ Once that was all sorted i went on to fill up the Risk Assessment, A cybersecuri
 I decided to go into further details covering each one of these 
 
 ## Human Error
-- Accidental data exposure:    
+- Accidental data exposure:      
  Employees inadvertently sharing sensitive client data, internal tools, or vulnerabilities through unsecured channels
 
-- Social Engineering susceptibility:    
+- Social Engineering susceptibility:           
 Employees falling victim to sophisticated phishing, smishing, or vishing attacks, leading to credential compromise or malware installation. This is particularly critical as they are often targeted.
 
 - Weak password practices:   
 Employees using easily guessable or reused passwords for internal systems or client accounts.
 
-- Poor patch management:    
+- Poor patch management:     
 Delaying or failing to apply security patches to internal software, operating systems, and network devices, leaving known vulnerabilities exploitable.
 
-- Bring Your Own Device (BYOD) risks:     
+- Bring Your Own Device (BYOD) risks:      
 Employees using personal devices for work that may lack adequate security controls, introducing malware or data leakage risks.
 
 ## Insider threat
@@ -112,21 +112,21 @@ Employees with elevated system privileges misusing their access for personal gai
 - Espionage:        
 An insider working with external threat actors to facilitate attacks or data exfiltration.
 
-- Shadow IT:
+- Shadow IT:           
 Employees using unauthorized software, cloud services, or devices without security oversight, creating unmonitored entry points.
 
 ## System vulnerabilities 
 
-- Inadequate access controls:
+- Inadequate access controls:           
 Over-provisioning user permissions, giving employees access to systems or data they don't need for their role .
 
-- Insufficient logging and monitoring:
+- Insufficient logging and monitoring:         
  Lack of comprehensive logging or ineffective monitoring of internal systems, making it difficult to detect and respond to breaches quickly.
 
-- Poor incident response planning:     
+- Poor incident response planning:       
 An underdeveloped or untested incident response plan for internal security incidents, leading to slower recovery and increased damage.
 
-- Configuration errors:      
+- Configuration errors:       
 Misconfigurations in internal servers, firewalls, or applications creating security gaps.
 
 - Legacy systems:      
